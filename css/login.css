@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;1,300;1,400&family=Roboto:ital,wght@0,100;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Pattaya', sans-serif; */
+/* font-family: 'Open Sans', sans-serif; */
+
+
+:root{
+
+    /* text color and background color */
+    --color-text: #ab7c5f;
+    --background-color: #fcfcf7;
+
+    /* font and size */
+    --body-font: 'Roboto', sans-serif;
+    --title-font: 'Pattaya', sans-serif;
+    --title-size: 1.9rem;
+    --normal--font-size: .938rem;
+    --small--font-size: .813rem;
+}
+
+body{
+    background-color: #f5f5f5;
+}
+
+.image-login{
+    width: 497px;
+    height: 543px;
+    margin-top: 10px;
+    margin-left: 192px;
+}
+
+.section-login{
+    display: flex;
+    position: relative;
+}
+
+.box-login{
+    background-color: var(--background-color);
+    position: relative;
+    width: 433px;
+    margin-top: 9px;
+    margin-bottom: 4px;
+    margin-left: -1px;
+}
+
+.relative-box{
+    position: relative;
+}
+
+.h1-login{  
+    position: absolute;
+    top: 44px;
+    left: 163px;
+    font-family: var(--title-font);
+    text-align: center;
+    font-size: var(--title-size);
+}
+
+/* title welcome */
+
+.welcome-title{
+    margin-top: 178px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: .882rem;
+    color: #8b4513;
+    font-weight: 600;
+    font-family: var(--body-font);
+}
+
+
+
+/* formulario */
+
+.form-box{
+  
+    margin-top: 66px;
+
+    width: 100%;
+    height: 23%;
+}
+
+form{
+    width: 85%;
+    height: 118px;
+    margin-left: 62px;
+}
+
+.label-email{
+    display: grid;
+}
+
+.name-user{
+    font-family: var(--body-font);
+    font-size: 12px;
+    color: var(--color-text);
+    font-weight: bold;
+}
+
+input{
+    width: 84%;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #463c36;
+    outline: none;
+}
+
+.label-password{
+    display: grid;
+    margin-top: 25px;
+}
+
+.password-lbl{
+    font-family: var(--body-font);
+    font-size: 12px;
+    color: var(--color-text);
+    font-weight: bold;
+}
+
+.forgot-password{
+    color: #8b4513;
+    font-family: 'Roboto', sans-serif;
+    margin-top: -20px;
+    margin-left: 277px;
+    font-size: .538rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+button{
+    border: none;
+    border-radius: 35px;
+    width: 40px;
+    padding-top: 10px;
+    padding-left: 47px;
+    padding-right: 96px;
+    padding-bottom: 10px;
+    margin-left: 152px;
+    margin-top: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: .585rem;
+    letter-spacing: 2px;
+    background-color: #99634d;
+    border-color: #99634d;
+    color: #fffafa;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color:#9f6953;
+}
+
+/* conta */
+
+.creat-acount{
+    margin-top: 72px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+a{
+    color: #ab7c5f;
+    border-bottom: 1px solid #7e4b37;
+    padding-bottom: 1px;
+    text-decoration: none;
+    
+}
